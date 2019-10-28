@@ -4,10 +4,10 @@ Teaching my dad MySQL for his Data Analytics Bootcamp Homework Assignment
 ### Sample queries:
 
 * Listing all the employees: in the Sales department, including their:
- - employee number, 
- - last name, 
- - first name, 
- - department name.
+  - employee number, 
+  - last name, 
+  - first name, 
+  - department name.
  ```
 SELECT employees.emp_no, employees.last_name, employees.first_name, departments.dept_name
 FROM employees, departments, dept_emp
